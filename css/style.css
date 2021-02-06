@@ -108,3 +108,62 @@ body {
   margin-top: 36px;
   display: inline-block;
 }
+.reviews {
+  padding: 100px 0 100px 0;
+}
+.review-slide {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.review-image {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: 'Gotham Pro Light';
+  position: relative;
+  margin-right: 50px;
+}
+.review-image::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.review-image > * {
+  position: relative;
+}
+.review-image-1 {
+  background: url(/img/review-image-1.jpg);
+  background-size: cover;
+}
+.review-image-2 {
+  background: url(/img/review-image-2.jpg);
+  background-size: cover;
+}
+.review-name {
+  margin-bottom: 7px;
+}
+.review-text {
+  font-size: 18px;
+  letter-spacing: 00.18px;
+  line-height: 1.4;
+}
+.review-link {
+  color: #f24841;
+}
+.button-prev {
+  color: #f24841;
+}
+.button-next {
+  color: #f24841;
+}
+.section-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+}

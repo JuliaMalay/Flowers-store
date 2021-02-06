@@ -9,3 +9,14 @@ const flowersSlider = new Swiper('.flower-slider', {
     prevEl: '.swiper-button-prev',
   },
 })
+const reviewsSlider = new Swiper('.reviews-slider', {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
