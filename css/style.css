@@ -109,7 +109,7 @@ body {
   display: inline-block;
 }
 .reviews {
-  padding: 100px 0 100px 0;
+  padding: 100px 0 50px 0;
 }
 .review-slide {
   padding-left: 60px;
@@ -155,15 +155,33 @@ body {
 .review-link {
   color: #f24841;
 }
-.button-prev {
+.button-prev::after,
+.button-next::after {
+  font-size: 34px;
   color: #f24841;
 }
-.button-next {
-  color: #f24841;
-}
+
 .section-title {
   font-size: 30px;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 100px;
+}
+.advantages {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  border-bottom: 1px solid #4c4c4c;
+}
+.advantages-wrapper {
+  min-height: 80px;
+  margin-bottom: 30px;
+}
+.advantages-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  font-family: 'Gotham Pro Medium';
+  max-width: 270px;
+  margin: auto;
 }
