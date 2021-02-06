@@ -16,10 +16,16 @@
   font-weight: normal;
   font-style: normal;
 }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 body {
   background-color: #292929;
   color: #ffffff;
   font-family: 'Gotham Pro', sans-serif;
+  margin: 0;
 }
 .header {
   margin-top: 50px;
@@ -58,6 +64,8 @@ body {
 .hero {
   text-align: center;
   padding-top: 100px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #4c4c4c;
 }
 .hero-title {
   font-size: 34px;
@@ -96,4 +104,7 @@ body {
   text-decoration: none;
   color: #ffffff;
   background-color: #ff2e55;
+  padding: 30px 65px 30px 65px;
+  margin-top: 36px;
+  display: inline-block;
 }
