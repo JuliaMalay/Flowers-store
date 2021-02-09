@@ -146,11 +146,11 @@ body {
   position: relative;
 }
 .review-image-1 {
-  background: url(./img/review-image-1.jpg);
+  background: url(/img/review-image-1.jpg);
   background-size: cover;
 }
 .review-image-2 {
-  background: url(./img/review-image-2.jpg);
+  background: url(/img/review-image-2.jpg);
   background-size: cover;
 }
 .review-name {

@@ -26,17 +26,19 @@ $(document).ready(function () {
       },
     },
   })
+
   const reviewsSlider = new Swiper('.reviews-slider', {
     // Optional parameters
     loop: true,
     slidesPerView: 1,
+    observer: true,
+    observeParents: true,
 
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    paginationClickable: true,
   })
 
   $('#review-1').on('click', function () {
