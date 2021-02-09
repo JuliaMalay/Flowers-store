@@ -38,6 +38,7 @@ $(document).ready(function () {
     },
     paginationClickable: true,
   })
+
   $('#review-1').on('click', function () {
     $.fancybox.open(
       [
