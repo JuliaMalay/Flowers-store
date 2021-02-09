@@ -69,11 +69,13 @@ body {
 }
 .hero-title {
   font-size: 34px;
+  margin: auto;
   margin-bottom: 34px;
   text-transform: uppercase;
   line-height: normal;
   letter-spacing: 0.34px;
   font-family: 'Gotham Pro Medium';
+  max-width: 660px;
 }
 .hero-description {
   font-size: 18px;
@@ -81,6 +83,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.18px;
   line-height: 1.4;
+  margin: auto;
+  max-width: 590px;
 }
 .flower-slider {
   width: 100%;
@@ -305,4 +309,81 @@ body {
   font-size: 36px;
   text-decoration: none;
   color: #fff;
+}
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-bottom: 33px;
+}
+.footer-menu-link {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-menu-item {
+  margin-right: 30px;
+}
+.social {
+  font-size: 16px;
+}
+.footer-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.footer-info {
+  text-align: right;
+}
+.footer-phone {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 14px;
+  display: block;
+}
+.footer-second {
+  background-color: #fff;
+  padding-bottom: 43px;
+  padding-top: 48px;
+}
+.footer-description {
+  color: #000;
+  font-family: 'Gotham Pro';
+  letter-spacing: 0.12px;
+  font-size: 12px;
+}
+.footer-second-info {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+}
+.author {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header-contacts,
+  .header-phone,
+  .header-info,
+  .callback {
+    text-align: center;
+  }
+  .hero {
+    padding-top: 50px;
+  }
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
 }
