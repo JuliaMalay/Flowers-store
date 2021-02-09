@@ -43,10 +43,10 @@ $(document).ready(function () {
     $.fancybox.open(
       [
         {
-          src: '/img/review-image-1.jpg',
+          src: './img/review-image-1.jpg',
           opts: {
             caption: 'Алиса Иванова',
-            thumb: '/img/review-image-1.jpg',
+            thumb: './img/review-image-1.jpg',
           },
         },
       ],
@@ -62,10 +62,10 @@ $(document).ready(function () {
     $.fancybox.open(
       [
         {
-          src: '/img/review-image-2.jpg',
+          src: './img/review-image-2.jpg',
           opts: {
             caption: 'Екатерина Анц',
-            thumb: '/img/review-image-2.jpg',
+            thumb: './img/review-image-2.jpg',
           },
         },
       ],
