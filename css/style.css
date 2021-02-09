@@ -268,9 +268,18 @@ body {
 }
 .more {
   font-size: 14px;
-  background: #f24841;
+  color: #f24841;
   display: block;
   text-align: center;
   margin-top: 39px;
   padding: 10px;
+}
+.more::after {
+  display: inline-block;
+  margin-left: 14px;
+  content: '';
+  width: 10px;
+  height: 4px;
+  background: url(/img/caret.svg) no-repeat center;
+  vertical-align: middle;
 }
