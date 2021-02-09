@@ -364,10 +364,23 @@ body {
   font-weight: 400;
   color: #000;
 }
+.modal {
+  display: none;
+}
+.modal-title {
+  color: #000;
+}
+.modal-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+.modal-button {
+  width: 100%;
+}
 @media (max-width: 768px) {
-  .header {
-    text-align: center;
-  }
+  .header,
   .header-contacts,
   .header-phone,
   .header-info,
@@ -385,5 +398,26 @@ body {
   .hero-description {
     font-size: 16px;
     line-height: 1.6;
+  }
+  .colors {
+    max-width: 200px;
+    margin: auto;
+  }
+  .card-label {
+    margin: 10px auto;
+    display: block;
+  }
+  .footer-info {
+    text-align: left;
+  }
+  .footer-second {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .offer,
+  .footer-info,
+  .offer-title {
+    text-align: left;
   }
 }
