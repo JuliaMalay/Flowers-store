@@ -260,5 +260,17 @@ body {
 .card-button {
   font-size: 14px;
   width: 100%;
-  padding: 16px 10px 13px; 10px
+  padding: 16px 10px 13px 10px;
+}
+.card-image {
+  width: 90px;
+  height: 90px;
+}
+.more {
+  font-size: 14px;
+  background: #f24841;
+  display: block;
+  text-align: center;
+  margin-top: 39px;
+  padding: 10px;
 }
