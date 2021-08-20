@@ -1,4 +1,4 @@
-# flowers store - Учебный проект Glo Academy
+# flowers store
 
 ## В проекте использовались языки:
 
